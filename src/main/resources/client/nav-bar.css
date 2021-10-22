@@ -1,0 +1,47 @@
+ul.horizontal {
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.horizontal li {
+    float: left;
+}
+
+ul.horizontal li:hover {
+    background-color: #111;
+}
+
+ul.horizontal li a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+textarea {
+    border-bottom: 1px solid #777;
+    font-size: 1.2em;
+    width: 100%;
+    resize: none;
+}
+  
+.request-box {
+    margin: 0 auto;
+    padding: 20px 26px;
+    width: 400px;
+}
+
+#userInfo {
+    margin: auto;
+    width: 20%;
+    font-size: 2em;
+    padding: 10px;
+}
+
+.right-align {
+    float: right !important;
+}

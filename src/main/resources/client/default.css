@@ -1,0 +1,13 @@
+html, body {
+    font-family: monospace;
+    font-size: 18px;
+    background-color: rgb(255, 231, 179);
+}
+
+.error {
+    border: 1px solid red !important;
+}
+
+.statusError {
+    color: red;
+}

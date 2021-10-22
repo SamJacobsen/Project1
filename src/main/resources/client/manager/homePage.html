@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="manager.js"></script>
+        <link rel="stylesheet" href="../default.css">
+        <link rel="stylesheet" href="../nav-bar.css">
+        <h1 id="out">Manager Home Page</h1>
+    </head>
+    <body onload="getSessionUser()">
+
+        <ul class="horizontal">
+            <li><a href="">Home</a></li>
+            <li><a onclick="loadManagePage()">Manage Reimbursements</a></li>
+            <li><a onclick="viewReimbursements()">View Reimbursements</a></li>
+            <li><a onclick="viewEmployees()">View Employees</a></li>
+            <li class="right-align"><a onclick="logout()">Logout</a></li>
+        </ul>
+        <br>
+
+        <div id="content"></div>
+
+    </body>
+</html>

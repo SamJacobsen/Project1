@@ -1,0 +1,17 @@
+<div class="request-box">
+    <form>
+        <label>Amount:</label>
+        <br>
+        <input class="amount" type="number" required>
+        <br>
+        <label>Transaction date:</label>
+        <br>
+        <input class="date" type="date" required>
+        <br>
+        <label for="purpose">Purpose:</label>
+        <textarea class="purpose" rows="4" cols="50" required></textarea>
+        <br>
+        <input type="button" onclick="postReimbursement()" value="Submit Reimbursement Request">
+    </form>
+    <strong id="request_status"></strong>
+</div>
